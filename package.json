@@ -7,7 +7,7 @@
     "lite": "lite-server",
     "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1"
- },
+  },
   "author": "Tiffany Massela",
   "license": "ISC",
   "devDependencies": {
@@ -17,5 +17,13 @@
     "bootstrap": "^4.5.2",
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tmassela/Nucampsite.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tmassela/Nucampsite/issues"
+  },
+  "homepage": "https://github.com/tmassela/Nucampsite#readme"
 }
