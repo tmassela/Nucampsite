@@ -79,11 +79,6 @@
             </div>
         </div>
     </div>
-
-
-
-
-
     <header class="jumbotron jumbotron-fluid">
         <div class="container">
             <div class="row">
@@ -225,8 +220,6 @@
                 </div>
             </div>
         </div>
-
-
         <div class="row row-content align-items-center">
             <div class="col-sm-4 col-md-3">
                 <h2 class="text-sm-left">Featured Campsites</h2>
@@ -257,10 +250,6 @@
             </div>
         </div>
     </div>
-
-
-
-
     <footer class="site-footer">
         <div class="container">
             <div class="row">
@@ -294,22 +283,7 @@
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
-    <script>
-        $(function() {
-            $(".carousel").carousel( { interval: 2000 } );
-            $("#carouselButton").click(function(){
-                if ($("#carouselButton").children("i").hasClass("fa-pause")) {
-                    $(".carousel").carousel("pause");
-                    $("#carouselButton").children("i").removeClass("fa-pause");
-                    $("#carouselButton").children("i").addClass("fa-play");
-                } else {
-                    $(".carousel").carousel("cycle");
-                    $("#carouselButton").children("i").removeClass("fa-play");
-                    $("#carouselButton").children("i").addClass("fa-pause");
-                }
-            });
-        });
-    </script>
+    <script> src="js/scripts.js"</script>
 
 </body>
 </html>
